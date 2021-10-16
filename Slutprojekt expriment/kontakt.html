@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="/img/logo-zello.jpg" alt="" />
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Startsida</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="info.html">Info</a></li>
+        </ul>
+      </nav>
+
+      <div class="split-right">
+        <img src="/img/contact-me.jpg" alt="contact me" />
+      </div>
+
+      <div class="split-left">
+        <h1>Kontakta mig</h1>
+        <div class="box-form">
+          <form action="/action_page.php">
+            <label for="fnamn">Förnamn:</label>
+            <input
+              type="text"
+              id="fnamn"
+              name="förnamn"
+              placeholder="Ditt förnamn"
+            />
+            <br>
+            <label for="lname">Efternamn:</label>
+            <input
+              type="text"
+              id="enamn"
+              name="efternamn"
+              placeholder="Ditt efternamn"
+            />
+            
+            <label for="subject">Fråga något:</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 300px"
+            ></textarea>
+            <br>
+            <input type="submit" value="Skicka" />
+          </form>
+        </div>
+      </div>
+
+
+      <footer>
+        <p>This is a footer.</p>
+      </footer>
+    </div>
+  </body>
+</html>
