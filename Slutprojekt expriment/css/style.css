@@ -5,7 +5,7 @@
 
     }
     
-
+/* FÖRSÖK LÄGGA MENYN VERTIKALT VID RESPONSIV */
     .container{
         display: grid;
         
@@ -26,6 +26,7 @@
         grid-column: 1/3;
         
         text-decoration: none;
+        font-size: 18px;
         background-color: beige;
 
         border-bottom: 2px solid rgb(88, 85, 85);
@@ -46,6 +47,7 @@
     li{
         padding-left: 2rem;
         max-height: 2rem;
+        flex-basis: 6%;
     }
     
     .split-left{
@@ -54,7 +56,9 @@
         text-align: center;     
         /* padding: 1rem 1rem; */
     }
-  
+    .split-left h1{
+        color:rgb(240,87,66); ;
+  }
     
     .split-left img{
         max-width: 50%;
@@ -67,10 +71,15 @@
         opacity: 70%;
     }
 
+    .img-info:hover{
+        background: url("/img/ismail-kids.jpeg");
+    }
+
     .split-right{
         grid-row: 3/4;
         grid-column: 2/3;
-        background-color: beige;        
+        background-color: beige;  
+        text-align: center;      
 
     }
     
@@ -80,7 +89,7 @@
     }
     
     .split-right p{
-        width: 80%;
+        width: 100%;
 
     }
 
